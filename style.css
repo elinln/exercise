@@ -1,0 +1,52 @@
+#main {
+    padding: 20px;
+}
+
+button {
+    margin: 20px;
+}
+
+#list {
+    padding: 20px;
+}
+
+header {
+display: flex;
+justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    padding: 8px;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+#logInForm {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 200px;
+}
+
+.logOutAndAddTodo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>övning js</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="functions.js"></script>
+</head>
+
+<body onload="">
+
+<header>
+
+    <h1>LocalStorage</h1>
+
+</header>
+
+<main>
+    <div id="main">
+        <h2>Välkommen!</h2>
+    </div>
+
+    <button onclick="myFunction()">Klicka här!</button>
+
+    <div id="list"> </div>
+
+    <div style="display: flex; justify-content: space-evenly;">
+        <a onclick="functionOne()" href="#">Länk 1</a>
+        <a onclick="functionTwo()" href="#">Länk 2</a>
+    </div>
+
+    <h2>Logga in</h2>
+
+    <div id="logInForm">
+        <h4>Ange användarnamn</h4>
+        <input id="username" type="text" placeholder="Ange användarnamn">
+        <h4>Ange lösenord</h4>
+        <input id="password" type="text" placeholder="Ange lösenord">
+        <button id="logInButton"> Logga in </button>
+        <div id="logInFeedback"></div>
+    </div>
+</main>
+
+<footer>
+
+
+</footer>
+    
+</body>
+</html>
